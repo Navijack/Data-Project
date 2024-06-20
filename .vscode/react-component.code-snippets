@@ -1,0 +1,17 @@
+{
+	"Create React Component": {
+		"prefix": "iii", // The trigger text to use this snippet
+		"body": [
+			"import React from 'react';",
+			"",
+			"const ${TM_FILENAME_BASE} = () => {",
+			"  return (",
+			"    <div>${TM_FILENAME_BASE}</div>",
+			"  )",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE}"
+		],
+		"description": "Create a React component"
+	}
+}

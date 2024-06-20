@@ -1,0 +1,42 @@
+/* src/styles/ScrollToTop.css */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-to-top button {
+  background-color: #6EE7B7;
+  /* Changed to green-300 */
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  /* Makes the button circular */
+  width: 3rem;
+  /* Adjust size as needed */
+  height: 3rem;
+  /* Adjust size as needed */
+}
+
+.scroll-to-top button:hover {
+  background-color: #6EE7B7;
+  /* Keeps green-300 on hover */
+  color: #000;
+  /* Changes text color to black on hover */
+}
