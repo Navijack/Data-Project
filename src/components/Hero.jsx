@@ -16,7 +16,6 @@ const Hero = () => {
         <button className="bg-green-300 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">Get Started</button>
       </div>
       <div id="company"> {/* Added id="company" here */}
-        <h2 className="text-3xl font-bold text-center mt-10">Company</h2>
       </div>
     </div>
   );
